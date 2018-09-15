@@ -8,7 +8,7 @@ default: &default
 
 development:
   <<: *default
-  database: db_development
+  database: db_pocketmoney
 
 test:
   <<: *default
