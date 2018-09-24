@@ -12,6 +12,7 @@ Public API
    admin
    ticketAuthentication
    receipt
+   reset-password
 
 
 Indices and tables
