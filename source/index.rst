@@ -9,8 +9,8 @@ Public API
 .. toctree::
    :maxdepth: 2
 
-   ticketAuthentication
    admin
+   ticketAuthentication
 
 
 Indices and tables
