@@ -10,7 +10,6 @@ Public API
    :maxdepth: 2
 
    ticketAuthentication
-   account
 
 
 Indices and tables
