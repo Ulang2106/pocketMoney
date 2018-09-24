@@ -10,6 +10,7 @@ Public API
    :maxdepth: 2
 
    ticketAuthentication
+   admin
 
 
 Indices and tables
