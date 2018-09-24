@@ -11,6 +11,7 @@ Public API
 
    admin
    ticketAuthentication
+   receipt
 
 
 Indices and tables
