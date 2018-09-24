@@ -21,3 +21,7 @@
 .byebug_history
 
 build/
+
+# Ignore Others
+public/assets/*
+app/assets/lib/*
