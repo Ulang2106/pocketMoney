@@ -26,14 +26,14 @@ API にアクセスする時に、ログイン時に生成した認証キーを�
 
      {
          "ticketID": "5N310DTDSNpKcJjGkm4N4BbXBCf4983o",
-         "accountID": "573eaed36b936971e9da555f",
+         "adminID": "573eaed36b936971e9da555f",
          "createdAt": "2016-05-20T14:59:39.019+09:00",
          "expiresAt": "2016-05-20T15:29:39.019+09:00"
      }
 
    :param string ticketID: 取得する認証チケットの ID.
    :>json string ticketID: 認証チケットID.
-   :>json string accountID: アカウント識別するための ID.
+   :>json string adminID: admin アカウントの ID.
    :>json string createdAt: 認証チケットが作成された時間.
    :>json string expiresAt: 認証チケットの有効期限.
 
@@ -57,7 +57,7 @@ API にアクセスする時に、ログイン時に生成した認証キーを�
      Content-Type: application/json
 
      {
-         "accountLoginID": "nickName",
+         "loginID": "admin",
          "password": "Pa$$w00rd"
      }
 
@@ -66,7 +66,7 @@ API にアクセスする時に、ログイン時に生成した認証キーを�
      HTTP/1.1 201 Created
      Location: /ticket/authentication/5N310DTDSNpKcJjGkm4N4BbXBCf4983o
 
-   :<json accountLoginID: ログインID（必須）
+   :<json loginID: ログインID（必須）
    :<json password: アカウントのパスワード（必須）
    :>header Location: 認証チケットの URI (ステータスコードが :statuscode:`201` の時)。
 
