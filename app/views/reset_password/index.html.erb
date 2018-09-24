@@ -1,0 +1,28 @@
+<div class="col-sm-4 col-md-4">
+  <div class="container reset-pass-container">
+    <legend class="legend update-pass-title">パスワードの変更</legend>
+    <form>
+      <div class="row update-pass-top-row">
+        <div class="form-group col-sm-12 col-md-12 update-pass-id-form">
+          <label for="input-id">ログインID</label>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <input type="text" class="form-control" id="input-id">
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-sm-12 col-md-12 new-pass-form">
+          <label for="input-new-pass">新しいパスワード</label>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <input type="password" class="form-control" id="input-new-pass">
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <%= button_to "送信", {:controller => "authentication", :action => "index"},
+                           :method => "get", :class => "btn btn-primary update-pass-btn"%>
+  </div>
+</div>
+

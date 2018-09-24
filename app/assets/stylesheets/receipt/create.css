@@ -1,0 +1,46 @@
+/* --------------------
+  create receipt style
+-------------------- */
+
+.create-receipt-container {
+    min-height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #d9edfa;
+    border: 1px solid #a9d7f8;
+    border-radius: 10px;        /* CSS3草案 */
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;   /* Firefox用 */
+    width: 450px;
+}
+
+.create-receipt-title {
+    width: 7em;
+    margin-left: 15px;
+    border-bottom: solid 1px;
+}
+
+.top-row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.month-form {
+    margin-top: 1em;
+}
+
+.money-form {
+    margin-top: 1em;
+}
+
+.lower-row {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.create-receipt-btn {
+    margin-top: 1em;
+    margin-left: 82%;
+}
+

@@ -1,0 +1,15 @@
+<div class="container top-container">
+  <center>
+    <%= image_tag "logo.png", :class => "top-logo" %>
+  </center>
+  <div align="center">
+    <legend class="legend top-guidance">ユーザー登録はお済みですか？</legend>
+    <div class="button-field">
+      <%= button_to "新規登録", {:controller => "register", :action => "index"},
+                                 :method => "get", :class => "btn btn-warning btn-lg"%>
+      <%= button_to "ログイン", {:controller => "authentication", :action => "index"},
+                                 :method => "get", :class => "btn btn-primary btn-lg"%>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,20 @@
+/* --------------------
+  register style
+-------------------- */
+
+.register-container {
+    min-height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FAEBD7;
+    border: 1px solid #FFDAB9;
+    border-radius: 10px;        /* CSS3草案 */
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;   /* Firefox用 */
+    width: 400px;
+}
+
+.guidance {
+    margin-top: 2em;
+}
+

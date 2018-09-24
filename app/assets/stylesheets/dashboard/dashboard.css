@@ -1,0 +1,42 @@
+/* --------------------
+  dashboard style
+-------------------- */
+
+.logo {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.logo-image {
+    height: 36px;
+    width: 200px;
+}
+
+.menu {
+    width: 230px;
+}
+
+.li-head {
+    border-top: 1px solid #999999;
+}
+
+.nav-bar {
+    background-color: #eaeaea;
+    border-top: 1px solid #dedede;
+    border-right: 1px solid #e0e0e0;
+    height: 100vh;
+}
+
+li {
+    border-bottom: 1px solid #999999;
+}
+
+a {
+    color: #48371B;
+}
+
+.blank {
+    height: 15em;
+    border-bottom: 0;
+}
+

@@ -1,0 +1,38 @@
+<div class="col-sm-4 col-md-4">
+  <div class="container update-receipt-container">
+    <legend class="legend update-receipt-title">レシートの編集</legend>
+    <form>
+      <div class="row update-receipt-top-row">
+        <div class="form-group col-sm-4 col-md-4 update-month-form">
+          <label for="update-month">月</label>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <input type="text" class="form-control" id="update-month">
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-sm-4 col-md-4 update-money-form">
+          <label for="update-money">金額(円)</label>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <input type="text" class="form-control" id="update-money">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row update-receipt-lower-row">
+        <div class="form-group col-sm-12 col-md-12 update-desc-form">
+          <label>備考</label>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <textarea type="text" class="form-control" rows="3"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <%= button_to "決定", {:controller => "receipt", :action => "index"},
+                           :method => "get", :class => "btn btn-primary update-receipt-btn"%>
+  </div>
+</div>
+

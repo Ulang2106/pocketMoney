@@ -1,0 +1,38 @@
+<div class="col-sm-4 col-md-4">
+  <div class="container create-receipt-container">
+    <legend class="legend create-receipt-title">レシートの追加</legend>
+    <form>
+      <div class="row top-row">
+        <div class="form-group col-sm-4 col-md-4 month-form">
+          <label for="input-month">月</label>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <input type="text" class="form-control" id="input-month">
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-sm-4 col-md-4 money-form">
+          <label for="input-money">金額(円)</label>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <input type="text" class="form-control" id="input-money">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row lower-row">
+        <div class="form-group col-sm-12 col-md-12">
+          <label>備考</label>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <textarea type="text" class="form-control" rows="3"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <%= button_to "追加", {:controller => "receipt", :action => "index"},
+                           :method => "get", :class => "btn btn-primary create-receipt-btn"%>
+  </div>
+</div>
+

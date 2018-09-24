@@ -1,0 +1,20 @@
+/* --------------------
+  family style
+-------------------- */
+
+.family-table {
+    margin-top: 2em;
+}
+
+.family-menu-icon {
+    color: #808080;
+}
+
+.family-menu-icon:hover {
+    color: #444444;
+}
+
+.family-menu {
+    border-bottom: 0;
+}
+

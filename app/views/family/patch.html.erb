@@ -1,0 +1,36 @@
+<div class="col-sm-4 col-md-4">
+  <div class="container update-family-container">
+    <legend class="legend update-family-title">ファミリーの編集</legend>
+    <form>
+      <div class="row update-family-top-row">
+        <div class="form-group col-sm-12 col-md-12 update-id-form">
+          <label for="update-id">ログインID</label>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <input type="text" class="form-control" id="update-id">
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-sm-12 col-md-12 update-name-form">
+          <label for="update-name-form">名前</label>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <input type="text" class="form-control" id="update-name">
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-sm-12 col-md-12 update-mail-form">
+          <label for="update-mail">メールアドレス</label>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <input type="text" class="form-control" id="update-mail">
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <%= button_to "決定", {:controller => "family", :action => "index"},
+                           :method => "get", :class => "btn btn-primary update-family-btn"%>
+  </div>
+</div>
+

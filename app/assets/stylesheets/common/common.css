@@ -1,0 +1,49 @@
+/* --------------------
+  common style
+-------------------- */
+
+body {
+    font-family: meiryo, sans-serif;
+}
+
+body .header {
+    width: auto;
+    margin-top: 2em;
+}
+
+body .main {
+    width: auto;
+    margin-top: 3em;
+}
+
+body .footer {
+    width: auto;
+    margin-top: 1em;
+}
+
+.space {
+    width: auto;
+    height: 1.5em;
+    background-color: grba(0,0,255,0);
+}
+
+.legend {
+/*    border-bottom: 1px solid #bcbcbc; */
+    border-bottom: none;
+}
+
+.top-logo {
+    margin-top: 1em;
+    height: 54px;
+    width: 300px;
+}
+
+.top-form {
+    margin-bottom: 10px;
+}
+
+.top-in-btn-form {
+    margin-bottom: 10px;
+    width: 320px;
+}
+

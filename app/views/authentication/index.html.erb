@@ -1,0 +1,25 @@
+<div class="container auth-container">
+  <center>
+    <%= image_tag "logo.png", :class => "top-logo" %>
+  </center>
+  <div align="center">
+    <legend class="legend guidance">ログイン</legend>
+    <div class="registerForm">
+      <form class="form-inline top-form">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="id">
+        </div>
+      </form>
+      <%= form_tag({:controller => "receipt", :action => "index"},
+                   {:method => "get", :class => "form-inline top-in-btn-form"}) do %>
+        <div class="input-group">
+          <input type="password" class="form-control" placeholder="password">
+          <span class="input-group-btn">
+            <button class="btn btn-primary" type="submit">ログイン</button>
+          </span>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,28 @@
+<div class="col-md-7">
+  <table class="table table-bordered table-hover family-table">
+    <thead>
+      <tr class="bg-primary">
+        <th>ログインID</th>
+        <th>名前</th>
+        <th>メールアドレス</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>miyoko</td>
+        <td>美代子</td>
+        <td>miyoko@example.com
+          <div class="dropdown">
+            <span class="glyphicon glyphicon-menu-hamburger family-menu-icon" data-toggle="dropdown"></span>
+            <div class="dropdown-menu">
+              <li class="family-menu">
+                <%= link_to "編集", family_patch_path %>
+              </li>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

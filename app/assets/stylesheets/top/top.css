@@ -1,0 +1,31 @@
+/* --------------------
+  toppage style
+-------------------- */
+
+.top-container {
+    min-height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #d9edfa;
+    border: 1px solid #a9d7f8;
+    border-radius: 10px;        /* CSS3草案 */
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;   /* Firefox用 */
+    width: 400px;
+}
+
+.top-guidance {
+    margin-top: 2em;
+}
+
+.button-field {
+    padding: 20px;
+    text-align:center;
+}
+
+.button-field form {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+

@@ -1,0 +1,21 @@
+/* --------------------
+  receipt style
+-------------------- */
+
+.receipt-table {
+    margin-top: 2em;
+}
+
+.receipt-menu-icon {
+    color: #808080;
+}
+
+.receipt-menu-icon:hover {
+    color: #444444;
+}
+
+.receipt-menu {
+    border-bottom: 0;
+}
+
+

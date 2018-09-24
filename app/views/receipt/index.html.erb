@@ -1,0 +1,37 @@
+<div class="col-md-7">
+  <%= button_to "レシートの追加", {:controller => "receipt", :action => "create"},
+                                   :method => "get", :class => "btn btn-primary btn-lg"%>
+  <table class="table table-bordered table-hover receipt-table">
+    <thead>
+      <tr class="bg-primary">
+        <th>月</th>
+        <th>金額(円)</th>
+        <th>備考</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>4月</td>
+        <td>25000</td>
+        <td>食費</td>
+      </tr>
+      <tr>
+        <td>4月</td>
+        <td>10000</td>
+        <td>生活品
+          <div class="dropdown">
+            <span class="glyphicon glyphicon-menu-hamburger receipt-menu-icon" data-toggle="dropdown"></span>
+            <div class="dropdown-menu">
+              <li class="receipt-menu">
+                <%= link_to "編集", receipt_patch_path %>
+                <%= link_to "削除", {:controller => "receipt", :action => "index"},
+                                     :method => "get" %>  <!-- TODO: confirm を実装する -->
+              </li>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
