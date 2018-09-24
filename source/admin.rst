@@ -116,7 +116,7 @@ Administrator Account
          :header: "Status Code", "Reason", "Description"
          :widths: 20, 30, 50
 
-         :http:statuscode:`200`, "\-",                 "成功"
+         :http:statuscode:`204`, "\-",                 "成功"
          :http:statuscode:`400`, "POC_MALFORMED_JSON", "入力された JSON の形式に誤りがあります."
          :http:statuscode:`400`, "POC_INVALID_JSON",   "入力された JSON の内容に誤りがあります."
          :http:statuscode:`401`, "POC_UNAUTHORIZED",   "ログインしていません."
@@ -143,7 +143,7 @@ Administrator Account
          :header: "Status Code", "Reason", "Description"
          :widths: 20, 30, 50
 
-         :http:statuscode:`200`, "\-",                                          "成功"
+         :http:statuscode:`204`, "\-",                                          "成功"
          :http:statuscode:`400`, "POC_ADMIN_PASSWORD_STRENGTH_IS_INSUFFICIENT", "パスワード強度が不足しています."
          :http:statuscode:`401`, "POC_UNAUTHORIZED",                            "ログインしていません."
          :http:statuscode:`404`, "POC_NOT_FOUND",                               "指定された admin アカウントが存在しません."
