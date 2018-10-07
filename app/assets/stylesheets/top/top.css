@@ -20,12 +20,16 @@
 
 .button-field {
     padding: 20px;
-    text-align:center;
+    text-align: center;
 }
 
 .button-field form {
     display: inline-block;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.reset-pass-guidance {
+    margin-left: 1050px;
 }
 
