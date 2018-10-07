@@ -7,6 +7,7 @@
         <th>月</th>
         <th>金額(円)</th>
         <th>備考</th>
+        <th class="operation">操作</th>
       </tr>
     </thead>
     <tbody>
@@ -14,11 +15,24 @@
         <td>4月</td>
         <td>25000</td>
         <td>食費</td>
+        <td class="receipt-operation">
+          <div class="dropdown">
+            <span class="glyphicon glyphicon-menu-hamburger receipt-menu-icon" data-toggle="dropdown"></span>
+            <div class="dropdown-menu">
+              <li class="receipt-menu">
+                <%= link_to "編集", receipt_patch_path %>
+                <%= link_to "削除", {:controller => "receipt", :action => "index"},
+                                     :method => "get" %>  <!-- TODO: confirm を実装する -->
+              </li>
+            </div>
+          </div>
+        </td>
       </tr>
       <tr>
         <td>4月</td>
         <td>10000</td>
-        <td>生活品
+        <td>生活品</td>
+        <td class="receipt-operation">
           <div class="dropdown">
             <span class="glyphicon glyphicon-menu-hamburger receipt-menu-icon" data-toggle="dropdown"></span>
             <div class="dropdown-menu">

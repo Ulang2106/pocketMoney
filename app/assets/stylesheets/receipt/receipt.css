@@ -6,6 +6,14 @@
     margin-top: 2em;
 }
 
+.operation {
+    width: 50px;
+}
+
+.receipt-operation {
+    text-align: center;
+}
+
 .receipt-menu-icon {
     color: #808080;
 }
@@ -17,5 +25,4 @@
 .receipt-menu {
     border-bottom: 0;
 }
-
 
